@@ -9,16 +9,21 @@
     <jp.ac.shohokus19b702.graphicssample.CustomView1
         android:layout_width="match_parent"
         android:layout_height="350dp"
-        app:
 
-      />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <jp.ac.shohokus19b702.graphicssample.CustomView2
 
-        andorid:id="@+id/customview2"
+        android:id="@+id/customView2"
         android:layout_width="match_parent"
-        android:layout_height="350dp"
 
-        />
+        android:layout_height="350dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

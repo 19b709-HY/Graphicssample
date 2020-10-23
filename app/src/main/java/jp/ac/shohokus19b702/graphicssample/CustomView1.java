@@ -18,5 +18,4 @@ public class CustomView1 extends View {
     public CustomView1(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
-
 }
